@@ -1,0 +1,29 @@
+/* 1439px-769px */
+@media (max-width: 1025px) {
+
+    /* header */
+    header {
+        padding: 24px 32px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 560px;
+    }
+
+    /* section2 */
+    .section2 {
+        width: calc(960 / 1025 * 100%);
+        column-gap: 30px;
+        margin: 80px auto;
+    }
+
+    article {
+        width: calc(300 / 960 * 100%);
+    }
+
+    /* footer */
+    footer {
+        padding: 40px 32px;
+    }
+}

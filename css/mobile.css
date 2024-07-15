@@ -1,0 +1,31 @@
+/* 480px-320px */
+@media (max-width: 481px) {
+
+    /* header */
+    header {
+        padding: 24px 8px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 320px;
+    }
+
+    .section_button {
+        width: 180px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* footer */
+    footer {
+        padding-block: 32px;
+    }
+
+    .footer_div {
+        width: 107px;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
